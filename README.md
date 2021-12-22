@@ -9,13 +9,13 @@
 
 Para emular npm run android 
 
-![enter image description here](hhttps://photos.app.goo.gl/au7kMGT4MMsgV1g39)
+![Emulador Android](https://lh3.googleusercontent.com/HDevCevmfLRsu8brbhuImafHVhmJ6pfBf3xvhPOqpzb-IEryTP9myKIerWDZiugBvHSUYxsU_4A75q55LY4vxwMvjLx2eNHQuHkaiwENQ5XphPLRo8vTkNrgHURJec8lmnbe2HR5DnYuH2hHXzswO2xAZD0jVWNb2_HhN7rldl4TPYsFXjefovTh6ByKjR05-XFTTKATExn2NF8hKJXfF47ksOU65VsN0HqjocPzOAYrWP9YhMgIub3OL1hl21QZQfLkjLK6zEihWnwIokoxMqCmc83okEm0LhQdPDRhltEtT263t2iYw6uux8T59iVAemhYwwSaA824PJDYKn8NrFf-z0rVM8XI3pOwlMO2qmQM3rUuuYGbdpPAYi6jubF1vEx-p69bLSOcagNDPP9EjQYCLTAmE-VGxw0cC4fUNTxM18tJbmy1XbA6V1zgS_jdBS89b6_N6imzRkRlvLjjs4bk1K7KDp-Fhy_AaKVuJUHc5ERjDIzuZx2ug4PsnmZKHwluY2apgymqQNADS04rBWoN5jIPy-PKVMtXs812KMX7lanTlhWyIGwqpT52wjVbnoJfaBWxaNj5-_N7mFKSWl0WcJKtjU1dXD_RAlfOs7UYMJ2E7XQX5IupK-w5A9h9RuHDqB39eSM52tsGH6bGC8qx2wLfwMcq2JUTCg5cPBndiadY_vDG5JEelrmXaPNAjk7CuLCL-Awxn_NEXlEK5Mw=w684-h1444-no?authuser=0)
+
 
 
 # IOS
 
 Para emular npm run ios
 
-![enter image description here](https://photos.app.goo.gl/ULGCEqc15TW5XLWb6)
-
+![Emulador IOS](https://lh3.googleusercontent.com/pw/AM-JKLW80XJEbKw2YsKdLSgbYftaiXB0jix9-wT7GJuoGjd4GyGFxPQOjRM-SIHT4VpSyz3GzyNeZrphY2exq0SBOez7PKr9zD2hEsneTQWnzZgQBodhsnrhAUelu_yNWTWqBWv0T8Ci47Tc6BswU2OKJ6tW=w688-h1448-no?authuser=0)
 
