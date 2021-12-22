@@ -84,9 +84,9 @@ const App: () => Node = () => {
             color: isDarkMode ? Colors.white : Colors.black,
           },
         ]}>
-        Hola
+        Hola,
         {'\n'}
-        Coder
+        Coder!
       </Text>
     </ImageBackground>
         <View
