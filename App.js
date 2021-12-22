@@ -6,25 +6,25 @@
  * @flow strict-local
  */
 
-import React from 'react';
-import type {Node} from 'react';
 import {
+  Colors,
+  DebugInstructions,
+  LearnMoreLinks,
+  ReloadInstructions,
+} from 'react-native/Libraries/NewAppScreen';
+import {
+  ImageBackground,
   SafeAreaView,
   ScrollView,
   StatusBar,
   StyleSheet,
   Text,
-  useColorScheme,
   View,
+  useColorScheme,
 } from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+import type {Node} from 'react';
+import React from 'react';
 
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -37,7 +37,7 @@ const Section = ({children, title}): Node => {
             color: isDarkMode ? Colors.white : Colors.black,
           },
         ]}>
-        {title}
+        {title} 
       </Text>
       <Text
         style={[
@@ -65,7 +65,30 @@ const App: () => Node = () => {
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
-        <Header />
+       
+        <ImageBackground
+      accessibilityRole="image"
+      testID="new-app-screen-header"
+      source={require('./coder.jpeg')}
+      style={[
+        styles.background,
+        {
+          backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
+        },
+      ]}
+      imageStyle={styles.logo}> 
+      <Text
+        style={[
+          styles.text,
+          {
+            color: isDarkMode ? Colors.white : Colors.black,
+          },
+        ]}>
+        Hola
+        {'\n'}
+        Coder
+      </Text>
+    </ImageBackground>
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
@@ -106,6 +129,29 @@ const styles = StyleSheet.create({
   },
   highlight: {
     fontWeight: '700',
+  },
+  background: {
+    paddingBottom: 40,
+    paddingTop: 96,
+    paddingHorizontal: 32,
+  },
+  logo: {
+    opacity: 0.2,
+    overflow: 'visible',
+    resizeMode: 'cover',
+    /*
+     * These negative margins allow the image to be offset similarly across screen sizes and component sizes.
+     *
+     * The source logo.png image is 512x512px, so as such, these margins attempt to be relative to the
+     * source image's size.
+     */
+    marginLeft: -128,
+    marginBottom: -192,
+  },
+  text: {
+    fontSize: 40,
+    fontWeight: '700',
+    textAlign: 'center',
   },
 });
 
